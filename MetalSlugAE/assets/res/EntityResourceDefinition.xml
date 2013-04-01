@@ -1,0 +1,109 @@
+<entities>
+    <entity
+        name="Marco"
+        baseHeight="160"
+        baseWidth="96" >
+        <animation
+            name="idle_lower_right"
+            interval="300"
+            path="res/roles/marco/idle_lower.png" >
+            <width adjustY = "-20">0,72</width>
+        </animation>
+        <animation
+            name="idle_upper_right"
+            interval="200"
+            path="res/roles/marco/idle_upper.png" >
+            <width adjustY = "-3">0,98,197,299</width>
+        </animation>
+        <animation
+            name="run_lower_right"
+            interval="100"
+            path="res/roles/marco/run_lower.png" >
+            <width adjustX ="6" adjustY="-30">0,73,166,262,327,382,439,513,604,700,768,821</width>
+        </animation>
+        <animation
+            name="run_upper_right"
+            interval="100"
+            path="res/roles/marco/run_upper.png" >
+            <width adjustY="-5">0,102,198,288,378,474,573,678,783,884,986,1088</width>
+        </animation>
+        <animation
+            name="pistol_fire_upper_right"
+            interval="35"
+            path="res/roles/marco/fire_upper.png" 
+            loop = "false"
+            >
+            <width adjustY="0">0,162,327,498,627,753,876,999,1113,1224</width>
+        </animation>
+         <animation
+            name="melee_upper_right"
+            interval="50"
+            path="res/roles/marco/melee_upper.png" 
+            loop = "false"
+            >
+            <width>0,97,214,389,510,502,718,921,371,408</width>
+        </animation>
+         <animation
+            name="reload_upper_right"
+            interval="75"
+            path="res/roles/marco/reload_upper.png" 
+            loop = "false"
+            >
+            <width adjustY ="31">0,108,222,336,454,574,690,808,927,1050,1164,1278,1395,1512,1638,1764,1893,2021,2154</width>
+        </animation>
+         <animation
+            name="normal_dead_right"
+            interval="75"
+            path="res/roles/marco/normal_dead.png" 
+            loop = "false"
+            >
+            <width adjustY ="42">0,94,196,298,399,502,603,705,798,888,978,1063,1146,1219,1296,1374,1464,1563,1673</width>
+        </animation>
+    </entity>
+    
+    <entity
+        name="Fio"
+        baseHeight="40"
+        baseWidth="24" >
+        <animation
+            name="idle_lower_right"
+            interval="200"
+            path="res/roles/fio/idle_lower.png" >
+            <width adjustY = "2">0</width>
+        </animation>
+        <animation
+            name="idle_upper_right"
+            interval="200"
+            path="res/roles/fio/idle_upper.png" >
+            <width adjustY = "-10">0,32,65,97,131,161</width>
+        </animation>
+        <animation
+            name="run_lower_right"
+            interval="100"
+            path="res/roles/fio/run_lower.png" >
+            <width adjustX ="3" adjustY="-2">0,27,56,87,116,138,160,185,215,248,276,298</width>
+        </animation>
+        <animation
+            name="run_upper_right"
+            interval="100"
+            path="res/roles/fio/run_upper.png" >
+            <width adjustX ="15" adjustY="-9">0,32,64,97,129,159,191,224,257,289,322,354</width>
+        </animation>
+         <animation
+            name="pistol_fire_upper_right"
+            interval="50"
+            path="res/roles/fio/fire_upper.png" 
+            loop = "false"
+            >
+            <width adjustY ="-10">0,54,110,165,199,233,270,307,344,380</width>
+        </animation>
+         <animation
+            name="reload_upper_right"
+            interval="75"
+            path="res/roles/fio/reload_upper.png" 
+            loop = "false"
+            >
+            <width adjustY ="-8">4,40,73,105,147,189,232,275,313,351,390,428,462,496,534</width>
+        </animation>
+    </entity>
+</entities>
